@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="btn1" class="btn" onclick= "cartvalue++;
+    document.querySelector('#text').innerText = `Your bag has ${cartvalue} items`;">Add to Bag</button><br>
+    
+    <button id="btn2" class="btn" onclick="cartvalue--
+    document.querySelector('#text').innerText = `Your bag has ${cartvalue} items`;">Move to Wishlist</button><br>
+    
+    <button id="btn3" class="btn" onclick=" cartvalue = cartvalue + 2
+    document.querySelector('#text').innerText = `Your bag has ${cartvalue} items`;">Added 1+1 items</button>
+    
+
+
+    <h2 id="text"></h2>
+    <script src="/PRACTICE-2/practice2.js">
+    </script>
+</body>
+</html>

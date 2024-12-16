@@ -1,0 +1,43 @@
+
+*{
+    padding:0%;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid grey;
+}
+
+/* button{
+    padding: 5px;
+    background-color: red;
+    color: aliceblue;
+    margin: 5px;
+} *
+.content{
+    color: aquamarine;
+
+}
+
+.newclass{
+    background-color: burlywood;
+}
+*/
+
+.dark{
+    background-color: black;
+    color:white;
+}
+
+
+.light{
+    background-color:light;
+    color: black;
+}
